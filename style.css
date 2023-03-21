@@ -14,6 +14,10 @@
     transition: all .2s linear;
 }
 
+#about{
+    transition: ease-out;
+}
+
 *::selection{
     background:var(--yellow);
     color:#333;
@@ -83,14 +87,7 @@ header{
     justify-content: space-between;
 }
 
-header .user img{
-    height:17rem;
-    width:17rem;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 1rem;
-    border:.7rem solid var(--yellow);
-}
+
 
 header .navbar{
     display: flex;
@@ -129,8 +126,8 @@ header .navbar a:hover{
 
 .home{
     display: flex;
-    justify-content: center;
-    flex-flow: column;
+    justify-content:space-around;
+    margin-top: 10rem;
     padding:0 15rem;
 }
 
@@ -204,6 +201,13 @@ header .navbar a:hover{
     font-size: 2rem;
     color:#fff;
 } 
+.user img{
+    width:32rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    border:.2rem solid var(--yellow);
+}
 
 .portfolio .box-container{
     display: flex;
@@ -436,8 +440,8 @@ header .navbar a:hover{
 .project .box-container .box:hover .description  {
     transform: translateY(0);
 }
-
-.socials i {
+ 
+ .socials i {
     font-size: 2.5rem;
     color: #bac964;
     background-color: #333333;
@@ -507,7 +511,5 @@ header .navbar a:hover{
      }
      
 }
- 
- 
  
  
